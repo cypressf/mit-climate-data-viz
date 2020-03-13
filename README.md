@@ -19,9 +19,16 @@
 
 # Choosing the best approach
 
-1. Ue the gcam dashboard, written in R, adapt output of models to fit format expected by that
-    - drawback: not the best option for graphical interface
-    - drawback: the regional definitions are different than GCAM
-    - although the visualizations are similar (energy by region, energy by fuel), code may have different regional definitions, which may be difficult to change
-2. Build it using javascript + html, and a data-viz library such as d3.js
-    - drawback: building more from scratch
+## Use the gcam dashboard
+
+GCAM dashboard is a climate data visualizer written in R. I'd adapt the output of EPPA to fit format expected by GCAM. I've [forked GCAM dashboard](https://github.com/cypressf/GCAM-dashboard/commit/559d2181f4c502f9daf315c1ba5bc6354716d3b9) to start changing it to do what we need.
+
+- drawback: not the best option for graphical interface
+- drawback: the regional definitions are different than GCAM
+    definitions, which may be difficult to change
+
+## Build it using a javascript data-viz library
+
+We could use a library such as d3.js
+
+- drawback: building more from scratch
