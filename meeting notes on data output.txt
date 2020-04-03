@@ -1,0 +1,11 @@
+often add new technologies to the model
+ - electricity generation would be broken down by different categories, e.g. biomass, hydrogen
+
+could have other outputs, such as economic output by sector
+
+currently primary energy is broken into coal, gas, oil, renewables, hydro, but might want to break it into coal "with or without carbon capture", or "gas with or without carbon capture"
+
+wouldn't want numbers in the names of things
+
+using new output format
+
