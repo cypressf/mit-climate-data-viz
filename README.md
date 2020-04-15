@@ -23,9 +23,7 @@
 
 GCAM dashboard is a climate data visualizer written in R. I'd adapt the output of EPPA to fit format expected by GCAM. I've [forked GCAM dashboard](https://github.com/cypressf/GCAM-dashboard/commit/559d2181f4c502f9daf315c1ba5bc6354716d3b9) to start changing it to do what we need.
 
-- drawback: not the best option for graphical interface
-- drawback: the regional definitions are different than GCAM
-    definitions, which may be difficult to change
+- drawback: not the best option for graphical interface. slow, and lacks customizability. not as easy for other frontend web developers to modify.
 
 ## Build it using a javascript data-viz library
 
