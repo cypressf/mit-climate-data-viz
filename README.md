@@ -33,6 +33,6 @@ We could use a library such as d3.js
 
 # Projects
 
-https://github.com/cypressf/climate-map-tests
-https://github.com/cypressf/climate-risk-map
-https://github.com/JGCRI/GCAM-dashboard
+- Climate risk map testing https://github.com/cypressf/climate-map-tests
+- Climate risk map website https://github.com/cypressf/climate-risk-map
+- EPPA dashboard https://github.com/JGCRI/GCAM-dashboard
